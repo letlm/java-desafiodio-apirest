@@ -16,19 +16,19 @@ public class Account {
     @Column(nullable = false)
     private String agency;
 
-    @Column(scale = 13, precision = 2)
+    @Column(precision = 13, scale = 2)
     private BigDecimal balance;
 
-    @Column(name = "additional_limit", scale = 13, precision = 2, nullable = false)
+    @Column(name = "additional_limit", precision = 13, scale = 2, nullable = false)
     private BigDecimal limit;
 
-    public Account(Long id, String number, String agency, BigDecimal balance, BigDecimal limit) {
-        this.id = id;
-        this.number = number;
-        this.agency = agency;
-        this.balance = balance;
-        this.limit = limit;
-    }
+//    public Account(Long id, String number, String agency, BigDecimal balance, BigDecimal limit) {
+//        this.id = id;
+//        this.number = number;
+//        this.agency = agency;
+//        this.balance = balance;
+//        this.limit = limit;
+//    }
 
     public Long getId() {
         return id;

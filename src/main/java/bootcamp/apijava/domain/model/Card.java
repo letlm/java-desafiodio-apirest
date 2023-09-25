@@ -15,14 +15,14 @@ public class Card {
     @Column(unique = true)
     private String number;
 
-    @Column(name = "available_limit", scale = 13, precision = 2, nullable = false)
+    @Column(name = "available_limit", precision = 13, scale = 2, nullable = false)
     private BigDecimal limit;
 
-    public Card(Long id, String number, BigDecimal limit) {
-        this.id = id;
-        this.number = number;
-        this.limit = limit;
-    }
+//    public Card(Long id, String number, BigDecimal limit) {
+//        this.id = id;
+//        this.number = number;
+//        this.limit = limit;
+//    }
 
     public Long getId() {
         return id;
