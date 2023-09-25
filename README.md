@@ -39,3 +39,6 @@ classDiagram
     User "1" *-- "1" Card 
     User "1" *-- "N" News 
 ```
+
+
+Swagger da api: https://java-desafiodio-apirest.up.railway.app/swagger-ui/index.html
