@@ -41,4 +41,6 @@ classDiagram
 ```
 
 
+Para o desenvolvimento, utilizei as aulas do desafio como base e como melhoria implementei as funcionalidades que permitem a exclusão de usuários por ID, edição por ID e listagem de todos os usuários, resultando em uma implementação básica do CRUD.
+
 Swagger da api: https://java-desafiodio-apirest.up.railway.app/swagger-ui/index.html
